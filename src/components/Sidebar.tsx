@@ -20,7 +20,7 @@ export function Sidebar() {
       opacity: [0, 1],
       translateX: [-12, 0],
       duration: 600,
-      delay: (_el, i) => 80 + i * 70,
+      delay: (_el: Element, i: number) => 80 + i * 70,
       ease: "out(3)",
     });
   }, []);
